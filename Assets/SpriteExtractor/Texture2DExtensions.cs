@@ -7,7 +7,7 @@
  * Licensees may copy, distribute, display, and perform the work and make derivative works and remixes based on it only for non-commercial purposes.
  *
  *
- * NB!!!
+ * Important
  * Whatever Artwork is used in conjunction with this tool and is extracted using this tool has no affiliation with this tool or its creator.
  * The Artwork(s) belong to their respective creators (the individuals that made them) and the user of this tool should adhere to the respective licenses stipulated by the owners/creators of the Artwork.
  *
