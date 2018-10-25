@@ -10,9 +10,11 @@
           <e p="Editor" t="Include">
             <e p="SEWindow.cs" t="Include" />
           </e>
+          <e p="Extensions" t="Include">
+            <e p="Texture2DExtensions.cs" t="Include" />
+          </e>
           <e p="License.txt" t="Include" />
           <e p="SpriteExtractor.cs" t="Include" />
-          <e p="Texture2DExtensions.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

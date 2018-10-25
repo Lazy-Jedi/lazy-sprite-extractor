@@ -22,6 +22,7 @@
  */
 
 using System.IO;
+using SpriteExtractor.Extensions;
 using UnityEditor;
 using UnityEngine;
 
@@ -47,10 +48,10 @@ namespace SpriteExtractor.Editor
 
         #region VARIABLES
 
-        private SpriteExtractor _spriteExtractor = new SpriteExtractor();  // Sprite Exporter
-        private GUIContent      _label           = new GUIContent("", ""); // Custom Label
-        private Vector2         _labelDimensions = Vector2.zero;           // Positioning of Labels
-        private string          _path            = "";                     // Custom Save Location
+        private SpriteExtractor _spriteExtractor = new SpriteExtractor(); // Sprite Exporter
+        private GUIContent _label = new GUIContent("", "");               // Custom Label
+        private Vector2 _labelDimensions = Vector2.zero;                  // Positioning of Labels
+        private string _path = "";                                        // Custom Save Location
 
         #endregion
 
@@ -83,7 +84,7 @@ namespace SpriteExtractor.Editor
             /* LABEL */
             SetLabel("Settings");
             EditorGUI.LabelField(new Rect(Width / 2 - _labelDimensions.x / 2, 4, _labelDimensions.x + 16, 16), _label,
-                                 EditorStyles.boldLabel);
+                EditorStyles.boldLabel);
 
             /* Begin Area */
             GUILayout.BeginArea(new Rect(0, 24, Width, 128), EditorStyles.helpBox);
@@ -110,8 +111,19 @@ namespace SpriteExtractor.Editor
             SetLabel("Sprite Sheet", "Select a Sprite Sheet with Sub Sprites");
             EditorGUI.LabelField(new Rect(8, 20, _labelDimensions.x + 16, 16), _label);
 
+            EditorGUI.BeginChangeCheck();
+
             SpriteSheet =
                 (Texture2D) EditorGUI.ObjectField(new Rect(14, 40, 64, 64), SpriteSheet, typeof(Texture2D), false);
+
+            // Set Read/Write Mode = True 
+            if (EditorGUI.EndChangeCheck())
+            {
+                if (SpriteSheet && !SpriteSheet.IsReadable())
+                {
+                    SpriteSheet.MakeReadable(true);
+                }
+            }
         }
 
 
@@ -129,26 +141,26 @@ namespace SpriteExtractor.Editor
             EditorGUI.LabelField(new Rect(Width / 2 - _labelDimensions.x / 2, 10, _labelDimensions.x + 16, 16), _label);
 
             SetLabel(SpriteSheetPath != "" ? SpriteSheetPath : "No Sprite Sheet Selected.",
-                     "This is the Path Location of the Sprite Sheet.");
+                "This is the Path Location of the Sprite Sheet.");
             EditorGUI.LabelField(new Rect(Width / 2 - _labelDimensions.x / 2, 30, _labelDimensions.x, 16),
-                                 _label, EditorStyles.textField);
+                _label, EditorStyles.textField);
 
 
             /* Save Path Label */
             SetLabel("Extracted Sprites Save Location", "Path to a Folder to Save the Extracted Sprites.");
             EditorGUI.LabelField(new Rect(Width / 2 - _labelDimensions.x / 2 - 8, 55, _labelDimensions.x + 24, 16),
-                                 _label);
+                _label);
 
 
             SetLabel(SavePath, "Path to a Folder to Save the Extracted Sprites.");
             EditorGUI.LabelField(new Rect(Width / 2 - _labelDimensions.x / 2 - 16, 75, _labelDimensions.x + 48, 16),
-                                 _label, EditorStyles.textField);
+                _label, EditorStyles.textField);
 
 
             SetLabel("Custom Save Path", "Choose a Custom Folder.");
             /* Button -> Choose Custom Save Path */
             if (GUI.Button(new Rect(Width / 2 - _labelDimensions.x / 2 - 100, 100, _labelDimensions.x + 48, 16), _label,
-                           EditorStyles.miniButton))
+                EditorStyles.miniButton))
             {
                 _path = EditorUtility.SaveFolderPanel("Save Extracted Sprites to Folder", "", "");
             }
@@ -157,7 +169,7 @@ namespace SpriteExtractor.Editor
             SetLabel("Reset Save Path", "");
             /* Button -> Reset Save Path */
             if (GUI.Button(new Rect(Width / 2 - _labelDimensions.x / 2 + 80, 100, _labelDimensions.x + 48, 16), _label,
-                           EditorStyles.miniButton))
+                EditorStyles.miniButton))
             {
                 _path = "";
             }
@@ -173,10 +185,10 @@ namespace SpriteExtractor.Editor
             {
                 /* One Liner Ternary Operation */
                 SavePath = SpriteSheet != null && _path == ""
-                               ? SpriteSheetPath.Replace(SpriteSheet.name + Extension, "")
-                               : SpriteSheet != null && _path != ""
-                                   ? _path
-                                   : "Sprite Sheet not Selected";
+                    ? SpriteSheetPath.Replace(SpriteSheet.name + Extension, "")
+                    : SpriteSheet != null && _path != ""
+                        ? _path
+                        : "Sprite Sheet not Selected";
             }
         }
 
@@ -189,7 +201,7 @@ namespace SpriteExtractor.Editor
             /* LABEL */
             SetLabel("Selected Texture");
             EditorGUI.LabelField(new Rect(Width / 2 - _labelDimensions.x / 2, 204, _labelDimensions.x, 16),
-                                 _label, EditorStyles.boldLabel);
+                _label, EditorStyles.boldLabel);
 
             /* Begin Area */
             GUILayout.BeginArea(new Rect(16, 224, Width - 32, Height - 256), EditorStyles.helpBox);

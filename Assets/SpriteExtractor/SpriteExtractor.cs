@@ -23,6 +23,7 @@
 
 using System;
 using System.IO;
+using SpriteExtractor.Extensions;
 using UnityEditor;
 using UnityEngine;
 using Object = UnityEngine.Object;
@@ -37,12 +38,12 @@ namespace SpriteExtractor
         public Texture2D SpriteSheet; // Sprite Sheet With Sub Sprites
 
         public string SpriteSheetPath { set; get; } // Sprite Sheet Path
-        public string SavePath        { set; get; } // Path to Where the Extracted Sub Sprites should be saved
-        public string Extension       { set; get; } // Extension of the Original Image.
+        public string SavePath { set; get; }        // Path to Where the Extracted Sub Sprites should be saved
+        public string Extension { set; get; }       // Extension of the Original Image.
 
-        private Object[]  _subSprites;       // Object Array of sub sprites from the Sprite Sheet.
+        private Object[] _subSprites;        // Object Array of sub sprites from the Sprite Sheet.
         private Texture2D _subTexture;       // Required to store a single Sub Sprite Texture
-        private Rect      _subTextureRect;   // Required Rect to get the Dimensions of the Sub Sprite Texture
+        private Rect _subTextureRect;        // Required Rect to get the Dimensions of the Sub Sprite Texture
         private Texture2D _extractedTexture; // The extracted Sub Sprite that is saved as a .png
 
         #endregion
@@ -60,8 +61,8 @@ namespace SpriteExtractor
                 _subTextureRect = sprite.textureRect;
 
                 _extractedTexture = _subTexture.CropTexture2D((int) _subTextureRect.x, (int) _subTextureRect.y,
-                                                              (int) _subTextureRect.width,
-                                                              (int) _subTextureRect.height);
+                    (int) _subTextureRect.width,
+                    (int) _subTextureRect.height);
 
                 byte[] data = _extractedTexture.EncodeToPNG();
                 File.WriteAllBytes(SavePath + "/" + sprite.name + ".png", data);

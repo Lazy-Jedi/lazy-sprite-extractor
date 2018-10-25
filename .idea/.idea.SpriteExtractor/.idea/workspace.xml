@@ -2,27 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f2f077f-81d7-49be-bec0-ca6a0361a42c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Artwork/256x256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Artwork/256x256.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpriteExtractor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpriteExtractor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Artwork/Uee/256x256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Artwork/Uee/256x256.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SpriteExtractor/Editor/SEWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SpriteExtractor/Editor/SEWindow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpriteExtractor/License.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SpriteExtractor/License.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpriteExtractor/ReadMe/Sprite Extractor Tool.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpriteExtractor/ReadMe/Sprite Extractor Tool.pdf.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SpriteExtractor/SpriteExtractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SpriteExtractor/SpriteExtractor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpriteExtractor/Texture2DExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SpriteExtractor/Texture2DExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpriteExtractor/Texture2DExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpriteExtractor/Texture2DExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/02/029b6f8f815b541438b36e5d9d8b30d3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/02/029b6f8f815b541438b36e5d9d8b30d3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/12/12dca229e38710f46a67bcee724c265c" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/12/12dca229e38710f46a67bcee724c265c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/1c/1c2bc22bb3fd0ae4e81511179cfa19b6" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/1c/1c2bc22bb3fd0ae4e81511179cfa19b6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/2c/2cda990e2423bbf4892e6590ba056729" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2c/2cda990e2423bbf4892e6590ba056729" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/75/7523cc902ef61a4479c0a609b6cf21da" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/75/7523cc902ef61a4479c0a609b6cf21da.info" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/87/87944481f51708a4ea02ee94c8e0b74f" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/87/87944481f51708a4ea02ee94c8e0b74f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/d5/d59f5a661766ea542aa6bd940a62f454" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d5/d59f5a661766ea542aa6bd940a62f454" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/d5/d59f5a661766ea542aa6bd940a62f454" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/d5/d59f5a661766ea542aa6bd940a62f454.info" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,92 +44,98 @@
       <file leaf-file-name="SpriteExtractor.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/SpriteExtractor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            <state relative-caret-position="765">
+              <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
               <folding>
-                <marker date="1540275591868" expanded="true" signature="0:782" ph="/* Created By: Uee ... */" />
-                <marker date="1540275591868" expanded="false" signature="790:887" ph="..." />
-                <marker date="1540275591868" expanded="true" signature="914:2750" ph="{...}" />
-                <marker date="1540275591868" expanded="true" signature="968:2748" ph="{...}" />
-                <marker date="1540275591868" expanded="false" signature="983:1766" ph="VARIALBES" />
-                <marker date="1540275591868" expanded="true" signature="1776:1929" ph="/// Extract the Sub Sprites of a Sprite Sheet using the Metadata generated by using the Unity Sprite Editor. ... " />
-                <marker date="1540275591868" expanded="true" signature="1966:2742" ph="{...}" />
-                <marker date="1540275591868" expanded="true" signature="2120:2694" ph="{...}" />
+                <marker date="1540499148463" expanded="true" signature="0:782" ph="/* Created By: Uee ... */" />
+                <marker date="1540499148463" expanded="false" signature="790:921" ph="..." />
+                <marker date="1540499148463" expanded="true" signature="1002:2698" ph="{...}" />
+                <marker date="1540499148463" expanded="false" signature="1017:1800" ph="VARIALBES" />
+                <marker date="1540499148463" expanded="true" signature="1810:1963" ph="/// Extract the Sub Sprites of a Sprite Sheet using the Metadata generated by using the Unity Sprite Editor. ... " />
+                <marker date="1540499148463" expanded="true" signature="2000:2692" ph="{...}" />
+                <marker date="1540499148463" expanded="true" signature="2154:2644" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Texture2DExtensions.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Texture2DExtensions.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <marker date="1540275570518" expanded="true" signature="0:782" ph="/* Created By: Uee ... */" />
-                <marker date="1540275570518" expanded="true" signature="836:2243" ph="{...}" />
-                <marker date="1540275570518" expanded="false" signature="843:959" ph="VARIABLES" />
-                <marker date="1540275570518" expanded="false" signature="966:2241" ph="EXTENSION METHODS" />
-                <marker date="1540275570518" expanded="true" signature="1097:2225" ph="{...}" />
-                <marker date="1540275570518" expanded="true" signature="1234:1302" ph="{...}" />
-                <marker date="1540275570518" expanded="true" signature="1322:1392" ph="{...}" />
-                <marker date="1540275570518" expanded="true" signature="1434:1495" ph="{...}" />
-                <marker date="1540275570518" expanded="true" signature="1539:1602" ph="{...}" />
-                <marker date="1540275570518" expanded="true" signature="1642:1687" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SEWindow.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SEWindow.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Editor/SEWindow.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="425">
+              <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
               <folding>
-                <marker date="1540275612252" expanded="true" signature="0:782" ph="/* Created By: Uee ... */" />
-                <marker date="1540275612252" expanded="false" signature="790:838" ph="..." />
-                <marker date="1540275612252" expanded="true" signature="872:10143" ph="{...}" />
-                <marker date="1540275612252" expanded="true" signature="915:10141" ph="{...}" />
-                <marker date="1540275612252" expanded="false" signature="930:1322" ph="WINDOW METHOD" />
-                <marker date="1540275612252" expanded="true" signature="1080:1302" ph="{...}" />
-                <marker date="1540275612252" expanded="false" signature="1333:1755" ph="VARIABLES" />
-                <marker date="1540275612252" expanded="false" signature="1766:2043" ph="GUI" />
-                <marker date="1540275612252" expanded="true" signature="1807:2023" ph="{...}" />
-                <marker date="1540275612252" expanded="false" signature="2054:7837" ph="WINDOW GUI METHODS" />
-                <marker date="1540275612252" expanded="true" signature="2090:2302" ph="/// Contains code for the basic settings such as: Selecting a Texture and Displaying Paths of the Texture and ... " />
-                <marker date="1540275612252" expanded="true" signature="2334:2942" ph="{...}" />
-                <marker date="1540275612252" expanded="true" signature="2953:3041" ph="/// Settings Option for Selecting Textures. ... " />
-                <marker date="1540275612252" expanded="true" signature="3083:3440" ph="{...}" />
-                <marker date="1540275612252" expanded="true" signature="3451:3626" ph="/// Settings Option that Displays Where the Selected Texture is Located and Where the Extracted Sprites will be ... " />
-                <marker date="1540275612252" expanded="true" signature="3660:6312" ph="{...}" />
-                <marker date="1540275612252" expanded="true" signature="5219:5346" ph="{...}" />
-                <marker date="1540275612252" expanded="true" signature="5610:5666" ph="{...}" />
-                <marker date="1540275612252" expanded="true" signature="5894:6302" ph="{...}" />
-                <marker date="1540275612252" expanded="true" signature="6323:6427" ph="/// Displays a Larger Scaled Image of the Selected Texture. ... " />
-                <marker date="1540275612252" expanded="true" signature="6473:7186" ph="{...}" />
-                <marker date="1540275612252" expanded="true" signature="7197:7322" ph="/// GUI Button that Calls the Extract Sprites Function from the Sprite Exporter. ... " />
-                <marker date="1540275612252" expanded="true" signature="7359:7817" ph="{...}" />
-                <marker date="1540275612252" expanded="true" signature="7683:7807" ph="{...}" />
-                <marker date="1540275612252" expanded="false" signature="7848:10135" ph="HELPER METHODS" />
-                <marker date="1540275612252" expanded="true" signature="7880:7948" ph="/// Editor Window Width ... " />
-                <marker date="1540275612252" expanded="true" signature="7976:8039" ph="{...}" />
-                <marker date="1540275612252" expanded="true" signature="8050:8119" ph="/// Editor Window Height ... " />
-                <marker date="1540275612252" expanded="true" signature="8148:8212" ph="{...}" />
-                <marker date="1540275612252" expanded="true" signature="8222:8383" ph="/// Modify the Label Text and Tooltip ... " />
-                <marker date="1540275612252" expanded="true" signature="8438:8603" ph="{...}" />
-                <marker date="1540275612252" expanded="true" signature="8614:8776" ph="/// Simple Overload Set Label Method -&gt; Used the SetLabel(text, tip) Function ... " />
-                <marker date="1540275612252" expanded="true" signature="8819:8871" ph="{...}" />
-                <marker date="1540275612252" expanded="true" signature="8882:8952" ph="/// Sprite Sheet Property ... " />
-                <marker date="1540275612252" expanded="true" signature="8990:9125" ph="{...}" />
-                <marker date="1540275612252" expanded="true" signature="9136:9211" ph="/// Sprite Sheet Path Property ... " />
-                <marker date="1540275612252" expanded="true" signature="9250:9622" ph="{...}" />
-                <marker date="1540275612252" expanded="true" signature="9276:9551" ph="{...}" />
-                <marker date="1540275612252" expanded="true" signature="9409:9537" ph="{...}" />
-                <marker date="1540275612252" expanded="true" signature="9633:9700" ph="/// Save Path Property ... " />
-                <marker date="1540275612252" expanded="true" signature="9732:9861" ph="{...}" />
-                <marker date="1540275612252" expanded="true" signature="9872:9951" ph="/// Extension of the Sprite Sheet. ... " />
-                <marker date="1540275612252" expanded="true" signature="9984:10115" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="0:782" ph="/* Created By: Uee ... */" />
+                <marker date="1540499148555" expanded="false" signature="790:872" ph="..." />
+                <marker date="1540499148555" expanded="true" signature="906:10326" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="949:10324" ph="{...}" />
+                <marker date="1540499148555" expanded="false" signature="964:1356" ph="WINDOW METHOD" />
+                <marker date="1540499148555" expanded="true" signature="1114:1336" ph="{...}" />
+                <marker date="1540499148555" expanded="false" signature="1367:1785" ph="VARIABLES" />
+                <marker date="1540499148555" expanded="false" signature="1796:2073" ph="GUI" />
+                <marker date="1540499148555" expanded="true" signature="1837:2053" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="2084:8020" ph="WINDOW GUI METHODS" />
+                <marker date="1540499148555" expanded="true" signature="2120:2332" ph="/// Contains code for the basic settings such as: Selecting a Texture and Displaying Paths of the Texture and ... " />
+                <marker date="1540499148555" expanded="true" signature="2364:2955" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="2966:3054" ph="/// Settings Option for Selecting Textures. ... " />
+                <marker date="1540499148555" expanded="true" signature="3096:3762" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="3574:3752" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="3650:3738" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="3773:3948" ph="/// Settings Option that Displays Where the Selected Texture is Located and Where the Extracted Sprites will be ... " />
+                <marker date="1540499148555" expanded="true" signature="3982:6512" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="5474:5601" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="5854:5910" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="6138:6502" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="6523:6627" ph="/// Displays a Larger Scaled Image of the Selected Texture. ... " />
+                <marker date="1540499148555" expanded="true" signature="6673:7369" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="7380:7505" ph="/// GUI Button that Calls the Extract Sprites Function from the Sprite Exporter. ... " />
+                <marker date="1540499148555" expanded="true" signature="7542:8000" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="7866:7990" ph="{...}" />
+                <marker date="1540499148555" expanded="false" signature="8031:10318" ph="HELPER METHODS" />
+                <marker date="1540499148555" expanded="true" signature="8063:8131" ph="/// Editor Window Width ... " />
+                <marker date="1540499148555" expanded="true" signature="8159:8222" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="8233:8302" ph="/// Editor Window Height ... " />
+                <marker date="1540499148555" expanded="true" signature="8331:8395" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="8405:8566" ph="/// Modify the Label Text and Tooltip ... " />
+                <marker date="1540499148555" expanded="true" signature="8621:8786" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="8797:8959" ph="/// Simple Overload Set Label Method -&gt; Used the SetLabel(text, tip) Function ... " />
+                <marker date="1540499148555" expanded="true" signature="9002:9054" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="9065:9135" ph="/// Sprite Sheet Property ... " />
+                <marker date="1540499148555" expanded="true" signature="9173:9308" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="9319:9394" ph="/// Sprite Sheet Path Property ... " />
+                <marker date="1540499148555" expanded="true" signature="9433:9805" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="9459:9734" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="9592:9720" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="9816:9883" ph="/// Save Path Property ... " />
+                <marker date="1540499148555" expanded="true" signature="9915:10044" ph="{...}" />
+                <marker date="1540499148555" expanded="true" signature="10055:10134" ph="/// Extension of the Sprite Sheet. ... " />
+                <marker date="1540499148555" expanded="true" signature="10167:10298" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Texture2DExtensions.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Extensions/Texture2DExtensions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1312">
+              <folding>
+                <marker date="1540499148505" expanded="true" signature="0:782" ph="/* Created By: Uee ... */" />
+                <marker date="1540499148505" expanded="false" signature="790:821" ph="..." />
+                <marker date="1540499148505" expanded="true" signature="859:3685" ph="{...}" />
+                <marker date="1540499148505" expanded="true" signature="905:3683" ph="{...}" />
+                <marker date="1540499148505" expanded="true" signature="920:1103" ph="VARIABLES" />
+                <marker date="1540499148505" expanded="true" signature="1114:3677" ph="EXTENSION METHODS" />
+                <marker date="1540499148505" expanded="true" signature="1249:2517" ph="{...}" />
+                <marker date="1540499148505" expanded="true" signature="1398:1482" ph="{...}" />
+                <marker date="1540499148505" expanded="true" signature="1506:1592" ph="{...}" />
+                <marker date="1540499148505" expanded="true" signature="1638:1711" ph="{...}" />
+                <marker date="1540499148505" expanded="true" signature="1759:1834" ph="{...}" />
+                <marker date="1540499148505" expanded="true" signature="1878:1935" ph="{...}" />
+                <marker date="1540499148505" expanded="true" signature="2527:2699" ph="/// Check the Readable Import Property of the Texture ... " />
+                <marker date="1540499148505" expanded="true" signature="2760:3014" ph="{...}" />
+                <marker date="1540499148505" expanded="true" signature="3024:3209" ph="/// Change the Readable Import Property of the Texture ... " />
+                <marker date="1540499148505" expanded="true" signature="3287:3657" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -143,16 +148,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Editor/SEWindow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SpriteExtractor/SpriteExtractor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Texture2DExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Editor/SEWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Extensions/Texture2DExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpriteExtractor/SpriteExtractor.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/SpriteExtractor/License.txt" />
-        <option value="$PROJECT_DIR$/Assets/SpriteExtractor/Texture2DExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/SpriteExtractor/SpriteExtractor.cs" />
+        <option value="$PROJECT_DIR$/Assets/SpriteExtractor/Extensions/Texture2DExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/SpriteExtractor/Texture2DExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/SpriteExtractor/Editor/SEWindow.cs" />
       </list>
     </option>
@@ -176,7 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
@@ -199,11 +204,24 @@
               <item name="" type="1045f7f1:UnityExplorerNode" />
               <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SpriteExtractor" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SpriteExtractor" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,11 +259,15 @@
       <updated>1540274142202</updated>
       <workItem from="1540274169942" duration="421000" />
       <workItem from="1540275363544" duration="281000" />
+      <workItem from="1540330363190" duration="528000" />
+      <workItem from="1540454787010" duration="310000" />
+      <workItem from="1540496058766" duration="1896000" />
+      <workItem from="1540498812772" duration="336000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="702000" />
+    <option name="totallyTimeSpent" value="3772000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -258,6 +280,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1296" height="991" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -267,9 +290,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2540453" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27022654" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
+      <window_info anchor="bottom" id="Unity" order="8" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -299,6 +322,191 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/SpriteExtractor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+          <folding>
+            <marker date="1540499148463" expanded="true" signature="0:782" ph="/* Created By: Uee ... */" />
+            <marker date="1540499148463" expanded="false" signature="790:921" ph="..." />
+            <marker date="1540499148463" expanded="true" signature="1002:2698" ph="{...}" />
+            <marker date="1540499148463" expanded="false" signature="1017:1800" ph="VARIALBES" />
+            <marker date="1540499148463" expanded="true" signature="1810:1963" ph="/// Extract the Sub Sprites of a Sprite Sheet using the Metadata generated by using the Unity Sprite Editor. ... " />
+            <marker date="1540499148463" expanded="true" signature="2000:2692" ph="{...}" />
+            <marker date="1540499148463" expanded="true" signature="2154:2644" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Texture2DExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Editor/SEWindow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="117" column="41" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
+          <folding>
+            <marker date="1540499148555" expanded="true" signature="0:782" ph="/* Created By: Uee ... */" />
+            <marker date="1540499148555" expanded="false" signature="790:872" ph="..." />
+            <marker date="1540499148555" expanded="true" signature="906:10326" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="949:10324" ph="{...}" />
+            <marker date="1540499148555" expanded="false" signature="964:1356" ph="WINDOW METHOD" />
+            <marker date="1540499148555" expanded="true" signature="1114:1336" ph="{...}" />
+            <marker date="1540499148555" expanded="false" signature="1367:1785" ph="VARIABLES" />
+            <marker date="1540499148555" expanded="false" signature="1796:2073" ph="GUI" />
+            <marker date="1540499148555" expanded="true" signature="1837:2053" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="2084:8020" ph="WINDOW GUI METHODS" />
+            <marker date="1540499148555" expanded="true" signature="2120:2332" ph="/// Contains code for the basic settings such as: Selecting a Texture and Displaying Paths of the Texture and ... " />
+            <marker date="1540499148555" expanded="true" signature="2364:2955" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="2966:3054" ph="/// Settings Option for Selecting Textures. ... " />
+            <marker date="1540499148555" expanded="true" signature="3096:3762" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="3574:3752" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="3650:3738" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="3773:3948" ph="/// Settings Option that Displays Where the Selected Texture is Located and Where the Extracted Sprites will be ... " />
+            <marker date="1540499148555" expanded="true" signature="3982:6512" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="5474:5601" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="5854:5910" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="6138:6502" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="6523:6627" ph="/// Displays a Larger Scaled Image of the Selected Texture. ... " />
+            <marker date="1540499148555" expanded="true" signature="6673:7369" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="7380:7505" ph="/// GUI Button that Calls the Extract Sprites Function from the Sprite Exporter. ... " />
+            <marker date="1540499148555" expanded="true" signature="7542:8000" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="7866:7990" ph="{...}" />
+            <marker date="1540499148555" expanded="false" signature="8031:10318" ph="HELPER METHODS" />
+            <marker date="1540499148555" expanded="true" signature="8063:8131" ph="/// Editor Window Width ... " />
+            <marker date="1540499148555" expanded="true" signature="8159:8222" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="8233:8302" ph="/// Editor Window Height ... " />
+            <marker date="1540499148555" expanded="true" signature="8331:8395" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="8405:8566" ph="/// Modify the Label Text and Tooltip ... " />
+            <marker date="1540499148555" expanded="true" signature="8621:8786" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="8797:8959" ph="/// Simple Overload Set Label Method -&gt; Used the SetLabel(text, tip) Function ... " />
+            <marker date="1540499148555" expanded="true" signature="9002:9054" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9065:9135" ph="/// Sprite Sheet Property ... " />
+            <marker date="1540499148555" expanded="true" signature="9173:9308" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9319:9394" ph="/// Sprite Sheet Path Property ... " />
+            <marker date="1540499148555" expanded="true" signature="9433:9805" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9459:9734" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9592:9720" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9816:9883" ph="/// Save Path Property ... " />
+            <marker date="1540499148555" expanded="true" signature="9915:10044" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="10055:10134" ph="/// Extension of the Sprite Sheet. ... " />
+            <marker date="1540499148555" expanded="true" signature="10167:10298" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Extensions/Texture2DExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1540499148505" expanded="true" signature="0:782" ph="/* Created By: Uee ... */" />
+            <marker date="1540499148505" expanded="false" signature="790:821" ph="..." />
+            <marker date="1540499148505" expanded="true" signature="859:3685" ph="{...}" />
+            <marker date="1540499148505" expanded="true" signature="905:3683" ph="{...}" />
+            <marker date="1540499148505" expanded="true" signature="920:1103" ph="VARIABLES" />
+            <marker date="1540499148505" expanded="true" signature="1114:3677" ph="EXTENSION METHODS" />
+            <marker date="1540499148505" expanded="true" signature="1249:2517" ph="{...}" />
+            <marker date="1540499148505" expanded="true" signature="1398:1482" ph="{...}" />
+            <marker date="1540499148505" expanded="true" signature="1506:1592" ph="{...}" />
+            <marker date="1540499148505" expanded="true" signature="1638:1711" ph="{...}" />
+            <marker date="1540499148505" expanded="true" signature="1759:1834" ph="{...}" />
+            <marker date="1540499148505" expanded="true" signature="1878:1935" ph="{...}" />
+            <marker date="1540499148505" expanded="true" signature="2527:2699" ph="/// Check the Readable Import Property of the Texture ... " />
+            <marker date="1540499148505" expanded="true" signature="2760:3014" ph="{...}" />
+            <marker date="1540499148505" expanded="true" signature="3024:3209" ph="/// Change the Readable Import Property of the Texture ... " />
+            <marker date="1540499148505" expanded="true" signature="3287:3657" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/License.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Texture2DExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Editor/SEWindow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3179">
+          <caret line="216" column="97" selection-start-line="216" selection-start-column="91" selection-end-line="216" selection-end-column="97" />
+          <folding>
+            <marker date="1540499148555" expanded="true" signature="0:782" ph="/* Created By: Uee ... */" />
+            <marker date="1540499148555" expanded="false" signature="790:872" ph="..." />
+            <marker date="1540499148555" expanded="true" signature="906:10326" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="949:10324" ph="{...}" />
+            <marker date="1540499148555" expanded="false" signature="964:1356" ph="WINDOW METHOD" />
+            <marker date="1540499148555" expanded="true" signature="1114:1336" ph="{...}" />
+            <marker date="1540499148555" expanded="false" signature="1367:1785" ph="VARIABLES" />
+            <marker date="1540499148555" expanded="false" signature="1796:2073" ph="GUI" />
+            <marker date="1540499148555" expanded="true" signature="1837:2053" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="2084:8020" ph="WINDOW GUI METHODS" />
+            <marker date="1540499148555" expanded="true" signature="2120:2332" ph="/// Contains code for the basic settings such as: Selecting a Texture and Displaying Paths of the Texture and ... " />
+            <marker date="1540499148555" expanded="true" signature="2364:2955" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="2966:3054" ph="/// Settings Option for Selecting Textures. ... " />
+            <marker date="1540499148555" expanded="true" signature="3096:3762" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="3574:3752" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="3650:3738" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="3773:3948" ph="/// Settings Option that Displays Where the Selected Texture is Located and Where the Extracted Sprites will be ... " />
+            <marker date="1540499148555" expanded="true" signature="3982:6512" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="5474:5601" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="5854:5910" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="6138:6502" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="6523:6627" ph="/// Displays a Larger Scaled Image of the Selected Texture. ... " />
+            <marker date="1540499148555" expanded="true" signature="6673:7369" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="7380:7505" ph="/// GUI Button that Calls the Extract Sprites Function from the Sprite Exporter. ... " />
+            <marker date="1540499148555" expanded="true" signature="7542:8000" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="7866:7990" ph="{...}" />
+            <marker date="1540499148555" expanded="false" signature="8031:10318" ph="HELPER METHODS" />
+            <marker date="1540499148555" expanded="true" signature="8063:8131" ph="/// Editor Window Width ... " />
+            <marker date="1540499148555" expanded="true" signature="8159:8222" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="8233:8302" ph="/// Editor Window Height ... " />
+            <marker date="1540499148555" expanded="true" signature="8331:8395" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="8405:8566" ph="/// Modify the Label Text and Tooltip ... " />
+            <marker date="1540499148555" expanded="true" signature="8621:8786" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="8797:8959" ph="/// Simple Overload Set Label Method -&gt; Used the SetLabel(text, tip) Function ... " />
+            <marker date="1540499148555" expanded="true" signature="9002:9054" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9065:9135" ph="/// Sprite Sheet Property ... " />
+            <marker date="1540499148555" expanded="true" signature="9173:9308" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9319:9394" ph="/// Sprite Sheet Path Property ... " />
+            <marker date="1540499148555" expanded="true" signature="9433:9805" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9459:9734" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9592:9720" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9816:9883" ph="/// Save Path Property ... " />
+            <marker date="1540499148555" expanded="true" signature="9915:10044" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="10055:10134" ph="/// Extension of the Sprite Sheet. ... " />
+            <marker date="1540499148555" expanded="true" signature="10167:10298" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/SpriteExtractor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <marker date="1540499148463" expanded="true" signature="0:782" ph="/* Created By: Uee ... */" />
+            <marker date="1540499148463" expanded="false" signature="790:921" ph="..." />
+            <marker date="1540499148463" expanded="true" signature="1002:2698" ph="{...}" />
+            <marker date="1540499148463" expanded="false" signature="1017:1800" ph="VARIALBES" />
+            <marker date="1540499148463" expanded="true" signature="1810:1963" ph="/// Extract the Sub Sprites of a Sprite Sheet using the Metadata generated by using the Unity Sprite Editor. ... " />
+            <marker date="1540499148463" expanded="true" signature="2000:2692" ph="{...}" />
+            <marker date="1540499148463" expanded="true" signature="2154:2644" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/License.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -311,14 +519,13 @@
         <state relative-caret-position="153">
           <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding>
-            <marker date="1540275591868" expanded="true" signature="0:782" ph="/* Created By: Uee ... */" />
-            <marker date="1540275591868" expanded="false" signature="790:887" ph="..." />
-            <marker date="1540275591868" expanded="true" signature="914:2750" ph="{...}" />
-            <marker date="1540275591868" expanded="true" signature="968:2748" ph="{...}" />
-            <marker date="1540275591868" expanded="false" signature="983:1766" ph="VARIALBES" />
-            <marker date="1540275591868" expanded="true" signature="1776:1929" ph="/// Extract the Sub Sprites of a Sprite Sheet using the Metadata generated by using the Unity Sprite Editor. ... " />
-            <marker date="1540275591868" expanded="true" signature="1966:2742" ph="{...}" />
-            <marker date="1540275591868" expanded="true" signature="2120:2694" ph="{...}" />
+            <marker date="1540499148463" expanded="true" signature="0:782" ph="/* Created By: Uee ... */" />
+            <marker date="1540499148463" expanded="false" signature="790:921" ph="..." />
+            <marker date="1540499148463" expanded="true" signature="1002:2698" ph="{...}" />
+            <marker date="1540499148463" expanded="false" signature="1017:1800" ph="VARIALBES" />
+            <marker date="1540499148463" expanded="true" signature="1810:1963" ph="/// Extract the Sub Sprites of a Sprite Sheet using the Metadata generated by using the Unity Sprite Editor. ... " />
+            <marker date="1540499148463" expanded="true" signature="2000:2692" ph="{...}" />
+            <marker date="1540499148463" expanded="true" signature="2154:2644" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -327,69 +534,258 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <marker date="1540275570518" expanded="true" signature="0:782" ph="/* Created By: Uee ... */" />
-            <marker date="1540275570518" expanded="true" signature="836:2243" ph="{...}" />
-            <marker date="1540275570518" expanded="false" signature="843:959" ph="VARIABLES" />
-            <marker date="1540275570518" expanded="false" signature="966:2241" ph="EXTENSION METHODS" />
-            <marker date="1540275570518" expanded="true" signature="1097:2225" ph="{...}" />
-            <marker date="1540275570518" expanded="true" signature="1234:1302" ph="{...}" />
-            <marker date="1540275570518" expanded="true" signature="1322:1392" ph="{...}" />
-            <marker date="1540275570518" expanded="true" signature="1434:1495" ph="{...}" />
-            <marker date="1540275570518" expanded="true" signature="1539:1602" ph="{...}" />
-            <marker date="1540275570518" expanded="true" signature="1642:1687" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Editor/SEWindow.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
+        <state relative-caret-position="3179">
+          <caret line="216" column="97" selection-start-line="216" selection-start-column="91" selection-end-line="216" selection-end-column="97" />
+          <folding>
+            <marker date="1540499148555" expanded="true" signature="0:782" ph="/* Created By: Uee ... */" />
+            <marker date="1540499148555" expanded="false" signature="790:872" ph="..." />
+            <marker date="1540499148555" expanded="true" signature="906:10326" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="949:10324" ph="{...}" />
+            <marker date="1540499148555" expanded="false" signature="964:1356" ph="WINDOW METHOD" />
+            <marker date="1540499148555" expanded="true" signature="1114:1336" ph="{...}" />
+            <marker date="1540499148555" expanded="false" signature="1367:1785" ph="VARIABLES" />
+            <marker date="1540499148555" expanded="false" signature="1796:2073" ph="GUI" />
+            <marker date="1540499148555" expanded="true" signature="1837:2053" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="2084:8020" ph="WINDOW GUI METHODS" />
+            <marker date="1540499148555" expanded="true" signature="2120:2332" ph="/// Contains code for the basic settings such as: Selecting a Texture and Displaying Paths of the Texture and ... " />
+            <marker date="1540499148555" expanded="true" signature="2364:2955" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="2966:3054" ph="/// Settings Option for Selecting Textures. ... " />
+            <marker date="1540499148555" expanded="true" signature="3096:3762" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="3574:3752" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="3650:3738" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="3773:3948" ph="/// Settings Option that Displays Where the Selected Texture is Located and Where the Extracted Sprites will be ... " />
+            <marker date="1540499148555" expanded="true" signature="3982:6512" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="5474:5601" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="5854:5910" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="6138:6502" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="6523:6627" ph="/// Displays a Larger Scaled Image of the Selected Texture. ... " />
+            <marker date="1540499148555" expanded="true" signature="6673:7369" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="7380:7505" ph="/// GUI Button that Calls the Extract Sprites Function from the Sprite Exporter. ... " />
+            <marker date="1540499148555" expanded="true" signature="7542:8000" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="7866:7990" ph="{...}" />
+            <marker date="1540499148555" expanded="false" signature="8031:10318" ph="HELPER METHODS" />
+            <marker date="1540499148555" expanded="true" signature="8063:8131" ph="/// Editor Window Width ... " />
+            <marker date="1540499148555" expanded="true" signature="8159:8222" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="8233:8302" ph="/// Editor Window Height ... " />
+            <marker date="1540499148555" expanded="true" signature="8331:8395" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="8405:8566" ph="/// Modify the Label Text and Tooltip ... " />
+            <marker date="1540499148555" expanded="true" signature="8621:8786" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="8797:8959" ph="/// Simple Overload Set Label Method -&gt; Used the SetLabel(text, tip) Function ... " />
+            <marker date="1540499148555" expanded="true" signature="9002:9054" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9065:9135" ph="/// Sprite Sheet Property ... " />
+            <marker date="1540499148555" expanded="true" signature="9173:9308" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9319:9394" ph="/// Sprite Sheet Path Property ... " />
+            <marker date="1540499148555" expanded="true" signature="9433:9805" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9459:9734" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9592:9720" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9816:9883" ph="/// Save Path Property ... " />
+            <marker date="1540499148555" expanded="true" signature="9915:10044" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="10055:10134" ph="/// Extension of the Sprite Sheet. ... " />
+            <marker date="1540499148555" expanded="true" signature="10167:10298" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/License.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/SpriteExtractor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <marker date="1540499148463" expanded="true" signature="0:782" ph="/* Created By: Uee ... */" />
+            <marker date="1540499148463" expanded="false" signature="790:921" ph="..." />
+            <marker date="1540499148463" expanded="true" signature="1002:2698" ph="{...}" />
+            <marker date="1540499148463" expanded="false" signature="1017:1800" ph="VARIALBES" />
+            <marker date="1540499148463" expanded="true" signature="1810:1963" ph="/// Extract the Sub Sprites of a Sprite Sheet using the Metadata generated by using the Unity Sprite Editor. ... " />
+            <marker date="1540499148463" expanded="true" signature="2000:2692" ph="{...}" />
+            <marker date="1540499148463" expanded="true" signature="2154:2644" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Texture2DExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Editor/SEWindow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <marker date="1540275612252" expanded="true" signature="0:782" ph="/* Created By: Uee ... */" />
-            <marker date="1540275612252" expanded="false" signature="790:838" ph="..." />
-            <marker date="1540275612252" expanded="true" signature="872:10143" ph="{...}" />
-            <marker date="1540275612252" expanded="true" signature="915:10141" ph="{...}" />
-            <marker date="1540275612252" expanded="false" signature="930:1322" ph="WINDOW METHOD" />
-            <marker date="1540275612252" expanded="true" signature="1080:1302" ph="{...}" />
-            <marker date="1540275612252" expanded="false" signature="1333:1755" ph="VARIABLES" />
-            <marker date="1540275612252" expanded="false" signature="1766:2043" ph="GUI" />
-            <marker date="1540275612252" expanded="true" signature="1807:2023" ph="{...}" />
-            <marker date="1540275612252" expanded="false" signature="2054:7837" ph="WINDOW GUI METHODS" />
-            <marker date="1540275612252" expanded="true" signature="2090:2302" ph="/// Contains code for the basic settings such as: Selecting a Texture and Displaying Paths of the Texture and ... " />
-            <marker date="1540275612252" expanded="true" signature="2334:2942" ph="{...}" />
-            <marker date="1540275612252" expanded="true" signature="2953:3041" ph="/// Settings Option for Selecting Textures. ... " />
-            <marker date="1540275612252" expanded="true" signature="3083:3440" ph="{...}" />
-            <marker date="1540275612252" expanded="true" signature="3451:3626" ph="/// Settings Option that Displays Where the Selected Texture is Located and Where the Extracted Sprites will be ... " />
-            <marker date="1540275612252" expanded="true" signature="3660:6312" ph="{...}" />
-            <marker date="1540275612252" expanded="true" signature="5219:5346" ph="{...}" />
-            <marker date="1540275612252" expanded="true" signature="5610:5666" ph="{...}" />
-            <marker date="1540275612252" expanded="true" signature="5894:6302" ph="{...}" />
-            <marker date="1540275612252" expanded="true" signature="6323:6427" ph="/// Displays a Larger Scaled Image of the Selected Texture. ... " />
-            <marker date="1540275612252" expanded="true" signature="6473:7186" ph="{...}" />
-            <marker date="1540275612252" expanded="true" signature="7197:7322" ph="/// GUI Button that Calls the Extract Sprites Function from the Sprite Exporter. ... " />
-            <marker date="1540275612252" expanded="true" signature="7359:7817" ph="{...}" />
-            <marker date="1540275612252" expanded="true" signature="7683:7807" ph="{...}" />
-            <marker date="1540275612252" expanded="false" signature="7848:10135" ph="HELPER METHODS" />
-            <marker date="1540275612252" expanded="true" signature="7880:7948" ph="/// Editor Window Width ... " />
-            <marker date="1540275612252" expanded="true" signature="7976:8039" ph="{...}" />
-            <marker date="1540275612252" expanded="true" signature="8050:8119" ph="/// Editor Window Height ... " />
-            <marker date="1540275612252" expanded="true" signature="8148:8212" ph="{...}" />
-            <marker date="1540275612252" expanded="true" signature="8222:8383" ph="/// Modify the Label Text and Tooltip ... " />
-            <marker date="1540275612252" expanded="true" signature="8438:8603" ph="{...}" />
-            <marker date="1540275612252" expanded="true" signature="8614:8776" ph="/// Simple Overload Set Label Method -&gt; Used the SetLabel(text, tip) Function ... " />
-            <marker date="1540275612252" expanded="true" signature="8819:8871" ph="{...}" />
-            <marker date="1540275612252" expanded="true" signature="8882:8952" ph="/// Sprite Sheet Property ... " />
-            <marker date="1540275612252" expanded="true" signature="8990:9125" ph="{...}" />
-            <marker date="1540275612252" expanded="true" signature="9136:9211" ph="/// Sprite Sheet Path Property ... " />
-            <marker date="1540275612252" expanded="true" signature="9250:9622" ph="{...}" />
-            <marker date="1540275612252" expanded="true" signature="9276:9551" ph="{...}" />
-            <marker date="1540275612252" expanded="true" signature="9409:9537" ph="{...}" />
-            <marker date="1540275612252" expanded="true" signature="9633:9700" ph="/// Save Path Property ... " />
-            <marker date="1540275612252" expanded="true" signature="9732:9861" ph="{...}" />
-            <marker date="1540275612252" expanded="true" signature="9872:9951" ph="/// Extension of the Sprite Sheet. ... " />
-            <marker date="1540275612252" expanded="true" signature="9984:10115" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="0:782" ph="/* Created By: Uee ... */" />
+            <marker date="1540499148555" expanded="false" signature="790:872" ph="..." />
+            <marker date="1540499148555" expanded="true" signature="906:10326" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="949:10324" ph="{...}" />
+            <marker date="1540499148555" expanded="false" signature="964:1356" ph="WINDOW METHOD" />
+            <marker date="1540499148555" expanded="true" signature="1114:1336" ph="{...}" />
+            <marker date="1540499148555" expanded="false" signature="1367:1785" ph="VARIABLES" />
+            <marker date="1540499148555" expanded="false" signature="1796:2073" ph="GUI" />
+            <marker date="1540499148555" expanded="true" signature="1837:2053" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="2084:8020" ph="WINDOW GUI METHODS" />
+            <marker date="1540499148555" expanded="true" signature="2120:2332" ph="/// Contains code for the basic settings such as: Selecting a Texture and Displaying Paths of the Texture and ... " />
+            <marker date="1540499148555" expanded="true" signature="2364:2955" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="2966:3054" ph="/// Settings Option for Selecting Textures. ... " />
+            <marker date="1540499148555" expanded="true" signature="3096:3762" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="3574:3752" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="3650:3738" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="3773:3948" ph="/// Settings Option that Displays Where the Selected Texture is Located and Where the Extracted Sprites will be ... " />
+            <marker date="1540499148555" expanded="true" signature="3982:6512" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="5474:5601" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="5854:5910" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="6138:6502" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="6523:6627" ph="/// Displays a Larger Scaled Image of the Selected Texture. ... " />
+            <marker date="1540499148555" expanded="true" signature="6673:7369" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="7380:7505" ph="/// GUI Button that Calls the Extract Sprites Function from the Sprite Exporter. ... " />
+            <marker date="1540499148555" expanded="true" signature="7542:8000" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="7866:7990" ph="{...}" />
+            <marker date="1540499148555" expanded="false" signature="8031:10318" ph="HELPER METHODS" />
+            <marker date="1540499148555" expanded="true" signature="8063:8131" ph="/// Editor Window Width ... " />
+            <marker date="1540499148555" expanded="true" signature="8159:8222" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="8233:8302" ph="/// Editor Window Height ... " />
+            <marker date="1540499148555" expanded="true" signature="8331:8395" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="8405:8566" ph="/// Modify the Label Text and Tooltip ... " />
+            <marker date="1540499148555" expanded="true" signature="8621:8786" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="8797:8959" ph="/// Simple Overload Set Label Method -&gt; Used the SetLabel(text, tip) Function ... " />
+            <marker date="1540499148555" expanded="true" signature="9002:9054" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9065:9135" ph="/// Sprite Sheet Property ... " />
+            <marker date="1540499148555" expanded="true" signature="9173:9308" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9319:9394" ph="/// Sprite Sheet Path Property ... " />
+            <marker date="1540499148555" expanded="true" signature="9433:9805" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9459:9734" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9592:9720" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9816:9883" ph="/// Save Path Property ... " />
+            <marker date="1540499148555" expanded="true" signature="9915:10044" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="10055:10134" ph="/// Extension of the Sprite Sheet. ... " />
+            <marker date="1540499148555" expanded="true" signature="10167:10298" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/License.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/License.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/SpriteExtractor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
+          <folding>
+            <marker date="1540499148463" expanded="true" signature="0:782" ph="/* Created By: Uee ... */" />
+            <marker date="1540499148463" expanded="false" signature="790:921" ph="..." />
+            <marker date="1540499148463" expanded="true" signature="1002:2698" ph="{...}" />
+            <marker date="1540499148463" expanded="false" signature="1017:1800" ph="VARIALBES" />
+            <marker date="1540499148463" expanded="true" signature="1810:1963" ph="/// Extract the Sub Sprites of a Sprite Sheet using the Metadata generated by using the Unity Sprite Editor. ... " />
+            <marker date="1540499148463" expanded="true" signature="2000:2692" ph="{...}" />
+            <marker date="1540499148463" expanded="true" signature="2154:2644" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Texture2DExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Editor/SEWindow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <marker date="1540499148555" expanded="true" signature="0:782" ph="/* Created By: Uee ... */" />
+            <marker date="1540499148555" expanded="false" signature="790:872" ph="..." />
+            <marker date="1540499148555" expanded="true" signature="906:10326" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="949:10324" ph="{...}" />
+            <marker date="1540499148555" expanded="false" signature="964:1356" ph="WINDOW METHOD" />
+            <marker date="1540499148555" expanded="true" signature="1114:1336" ph="{...}" />
+            <marker date="1540499148555" expanded="false" signature="1367:1785" ph="VARIABLES" />
+            <marker date="1540499148555" expanded="false" signature="1796:2073" ph="GUI" />
+            <marker date="1540499148555" expanded="true" signature="1837:2053" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="2084:8020" ph="WINDOW GUI METHODS" />
+            <marker date="1540499148555" expanded="true" signature="2120:2332" ph="/// Contains code for the basic settings such as: Selecting a Texture and Displaying Paths of the Texture and ... " />
+            <marker date="1540499148555" expanded="true" signature="2364:2955" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="2966:3054" ph="/// Settings Option for Selecting Textures. ... " />
+            <marker date="1540499148555" expanded="true" signature="3096:3762" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="3574:3752" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="3650:3738" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="3773:3948" ph="/// Settings Option that Displays Where the Selected Texture is Located and Where the Extracted Sprites will be ... " />
+            <marker date="1540499148555" expanded="true" signature="3982:6512" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="5474:5601" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="5854:5910" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="6138:6502" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="6523:6627" ph="/// Displays a Larger Scaled Image of the Selected Texture. ... " />
+            <marker date="1540499148555" expanded="true" signature="6673:7369" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="7380:7505" ph="/// GUI Button that Calls the Extract Sprites Function from the Sprite Exporter. ... " />
+            <marker date="1540499148555" expanded="true" signature="7542:8000" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="7866:7990" ph="{...}" />
+            <marker date="1540499148555" expanded="false" signature="8031:10318" ph="HELPER METHODS" />
+            <marker date="1540499148555" expanded="true" signature="8063:8131" ph="/// Editor Window Width ... " />
+            <marker date="1540499148555" expanded="true" signature="8159:8222" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="8233:8302" ph="/// Editor Window Height ... " />
+            <marker date="1540499148555" expanded="true" signature="8331:8395" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="8405:8566" ph="/// Modify the Label Text and Tooltip ... " />
+            <marker date="1540499148555" expanded="true" signature="8621:8786" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="8797:8959" ph="/// Simple Overload Set Label Method -&gt; Used the SetLabel(text, tip) Function ... " />
+            <marker date="1540499148555" expanded="true" signature="9002:9054" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9065:9135" ph="/// Sprite Sheet Property ... " />
+            <marker date="1540499148555" expanded="true" signature="9173:9308" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9319:9394" ph="/// Sprite Sheet Path Property ... " />
+            <marker date="1540499148555" expanded="true" signature="9433:9805" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9459:9734" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9592:9720" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="9816:9883" ph="/// Save Path Property ... " />
+            <marker date="1540499148555" expanded="true" signature="9915:10044" ph="{...}" />
+            <marker date="1540499148555" expanded="true" signature="10055:10134" ph="/// Extension of the Sprite Sheet. ... " />
+            <marker date="1540499148555" expanded="true" signature="10167:10298" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Extensions/Texture2DExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1312">
+          <folding>
+            <marker date="1540499148505" expanded="true" signature="0:782" ph="/* Created By: Uee ... */" />
+            <marker date="1540499148505" expanded="false" signature="790:821" ph="..." />
+            <marker date="1540499148505" expanded="true" signature="859:3685" ph="{...}" />
+            <marker date="1540499148505" expanded="true" signature="905:3683" ph="{...}" />
+            <marker date="1540499148505" expanded="true" signature="920:1103" ph="VARIABLES" />
+            <marker date="1540499148505" expanded="true" signature="1114:3677" ph="EXTENSION METHODS" />
+            <marker date="1540499148505" expanded="true" signature="1249:2517" ph="{...}" />
+            <marker date="1540499148505" expanded="true" signature="1398:1482" ph="{...}" />
+            <marker date="1540499148505" expanded="true" signature="1506:1592" ph="{...}" />
+            <marker date="1540499148505" expanded="true" signature="1638:1711" ph="{...}" />
+            <marker date="1540499148505" expanded="true" signature="1759:1834" ph="{...}" />
+            <marker date="1540499148505" expanded="true" signature="1878:1935" ph="{...}" />
+            <marker date="1540499148505" expanded="true" signature="2527:2699" ph="/// Check the Readable Import Property of the Texture ... " />
+            <marker date="1540499148505" expanded="true" signature="2760:3014" ph="{...}" />
+            <marker date="1540499148505" expanded="true" signature="3024:3209" ph="/// Change the Readable Import Property of the Texture ... " />
+            <marker date="1540499148505" expanded="true" signature="3287:3657" ph="{...}" />
           </folding>
         </state>
       </provider>
