@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="21473199-ea6e-46c0-bf7a-25675a0cd3fc" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Editor/SpriteExtractorWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Extensions/StringExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/578B5B67-7E30-45F5-8675-3155BC1864CB/2c/7fe5de1b/Texture2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Utilities/Extractor.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/SpriteExtractor/SpriteExtractor.cs" />
+        <option value="$PROJECT_DIR$/Assets/SpriteExtractor/Extensions/StringExtension.cs" />
+        <option value="$PROJECT_DIR$/Assets/SpriteExtractor/Extensions/Texture2DExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/SpriteExtractor/Editor/SEWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/SpriteExtractorWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/SpriteExtractor/License.txt" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/StringExtension.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/Texture2DExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/SpriteExtractor/Extractor.cs" />
+        <option value="$PROJECT_DIR$/Assets/SpriteExtractor/Editor/SpriteExtractorWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/SpriteExtractor/Utilities/Extractor.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="1613" />
+    <option name="height" value="868" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="SpriteExtractor" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="SpriteExtractor" type="1045f7f1:UnityExplorerNode" />
+              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21473199-ea6e-46c0-bf7a-25675a0cd3fc" name="Default Changelist" comment="" />
+      <created>1558279786429</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558279786429</updated>
+      <workItem from="1558279790980" duration="7820000" />
+      <workItem from="1558295152406" duration="6369000" />
+      <workItem from="1558302221322" duration="97000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14286000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2525707" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="2" />
+      <window_info anchor="bottom" id="Unit Tests" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Performance Profiler" order="12" />
+      <window_info anchor="bottom" id="Run" order="13" />
+      <window_info anchor="bottom" id="Debug" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Errors In Solution" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Extensions/ArrayExtension.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Extensions/Texture2DExtensions.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/SpriteExtractorWindow.txt" />
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/License.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Extensions/StringExtension.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <marker date="1558300868645" expanded="true" signature="0:220" ph="/* Created By: Uee ... */" />
+            <marker date="1558300868645" expanded="false" signature="228:274" ph="..." />
+            <marker date="1558300868645" expanded="true" signature="296:1831" ph="{...}" />
+            <marker date="1558300868645" expanded="true" signature="338:1829" ph="{...}" />
+            <marker date="1558300868645" expanded="true" signature="353:443" ph="///     Cached String Builder of String Data. ... " />
+            <marker date="1558300868645" expanded="true" signature="537:745" ph="///     Concat String Data using String Builder. ... " />
+            <marker date="1558300868645" expanded="true" signature="825:1442" ph="{...}" />
+            <marker date="1558300868645" expanded="true" signature="1453:1611" ph="///     Helper Method to Assist with Combining String Data in an Array. ... " />
+            <marker date="1558300868645" expanded="true" signature="1688:1823" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/578B5B67-7E30-45F5-8675-3155BC1864CB/2c/7fe5de1b/Texture2D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="123" column="32" selection-start-line="123" selection-start-column="32" selection-end-line="123" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Extensions/Texture2DExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <marker date="1558301025252" expanded="true" signature="0:220" ph="/* Created By: Uee ... */" />
+            <marker date="1558301025252" expanded="false" signature="228:259" ph="..." />
+            <marker date="1558301025252" expanded="true" signature="281:2598" ph="{...}" />
+            <marker date="1558301025252" expanded="true" signature="323:2596" ph="{...}" />
+            <marker date="1558301025252" expanded="true" signature="329:732" ph="VARIABLES" />
+            <marker date="1558301025252" expanded="true" signature="350:421" ph="/// Cached Pixel Color Data of Sprite. ... " />
+            <marker date="1558301025252" expanded="true" signature="462:524" ph="/// Cached Sprite Texture 2D. ... " />
+            <marker date="1558301025252" expanded="true" signature="567:667" ph="/// Cached Texture Importer used to Modify Texture Import Settings. ... " />
+            <marker date="1558301025252" expanded="true" signature="737:2593" ph="EXTENSION METHODS" />
+            <marker date="1558301025252" expanded="true" signature="766:1034" ph="/// Crop Textures from Sprite Bounds. ... " />
+            <marker date="1558301025252" expanded="true" signature="1137:2033" ph="{...}" />
+            <marker date="1558301025252" expanded="true" signature="1262:1304" ph="{...}" />
+            <marker date="1558301025252" expanded="true" signature="1319:1363" ph="{...}" />
+            <marker date="1558301025252" expanded="true" signature="2037:2203" ph="///     Change the Readable Import Property of the Texture. ... " />
+            <marker date="1558301025252" expanded="true" signature="2275:2579" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Extractor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Editor/SpriteExtractorWindow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+          <folding>
+            <marker date="1558302308523" expanded="true" signature="0:81" ph="/* Created By: Uee ... */" />
+            <marker date="1558302308523" expanded="true" signature="89:204" ph="..." />
+            <marker date="1558302308523" expanded="true" signature="238:5411" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="291:5409" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="297:557" ph="EDITOR WINDOW" />
+            <marker date="1558302308523" expanded="true" signature="444:543" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="562:954" ph="VARIABLES" />
+            <marker date="1558302308523" expanded="true" signature="583:632" ph="/// Field Colors ... " />
+            <marker date="1558302308523" expanded="true" signature="705:755" ph="/// Window Color. ... " />
+            <marker date="1558302308523" expanded="true" signature="828:881" ph="/// Sprite Extractor ... " />
+            <marker date="1558302308523" expanded="true" signature="959:2035" ph="PROPERTIES" />
+            <marker date="1558302308523" expanded="true" signature="981:1068" ph="/// Selected Sprite Sheet with Sub Sprites to Extract. ... " />
+            <marker date="1558302308523" expanded="true" signature="1100:1185" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="1189:1253" ph="/// Sprite Sheet Location Path. ... " />
+            <marker date="1558302308523" expanded="true" signature="1286:1458" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="1335:1454" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="1462:1532" ph="/// Save Location of the Sub Sprites. ... " />
+            <marker date="1558302308523" expanded="true" signature="1558:1636" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="1640:1708" ph="/// Sprite Sheet Texture Extension. ... " />
+            <marker date="1558302308523" expanded="true" signature="1735:1815" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="1819:1875" ph="/// Editor Window Width ... " />
+            <marker date="1558302308523" expanded="true" signature="1921:1978" ph="/// Editor Window Height ... " />
+            <marker date="1558302308523" expanded="true" signature="2040:2385" ph="GUI METHOD" />
+            <marker date="1558302308523" expanded="true" signature="2082:2371" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="2390:5084" ph="GUI METHODS" />
+            <marker date="1558302308523" expanded="true" signature="2413:2502" ph="/// All the Required Setting Fields, Labels and Buttons. ... " />
+            <marker date="1558302308523" expanded="true" signature="2528:2642" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="2647:2703" ph="/// Sprite Sheet Field. ... " />
+            <marker date="1558302308523" expanded="true" signature="2737:3269" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="2980:3265" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="3041:3110" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="3144:3176" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="3185:3260" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="3273:3353" ph="/// Sprite Sheet and Save Path Location Labels. ... " />
+            <marker date="1558302308523" expanded="true" signature="3382:3703" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="3708:3767" ph="/// Path Location Buttons. ... " />
+            <marker date="1558302308523" expanded="true" signature="3804:4446" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="3980:4068" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="4259:4405" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="4451:4513" ph="/// Display the Sprite Sheet. ... " />
+            <marker date="1558302308523" expanded="true" signature="4547:4739" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="4624:4735" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="4743:4808" ph="///  Extract Sub Sprites Button. ... " />
+            <marker date="1558302308523" expanded="true" signature="4839:5070" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="4993:5066" ph="{...}" />
+            <marker date="1558302308523" expanded="true" signature="5089:5406" ph="HELPER METHODS" />
+            <marker date="1558302308523" expanded="true" signature="5115:5165" ph="/// Reset Labels. ... " />
+            <marker date="1558302308523" expanded="true" signature="5194:5392" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Utilities/Extractor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <marker date="1558302308547" expanded="true" signature="0:600" ph="/* Created By: Uee ... */" />
+            <marker date="1558302308547" expanded="true" signature="608:739" ph="..." />
+            <marker date="1558302308547" expanded="true" signature="776:2453" ph="{...}" />
+            <marker date="1558302308547" expanded="true" signature="818:2451" ph="{...}" />
+            <marker date="1558302308547" expanded="false" signature="824:1324" ph="VARIALBES" />
+            <marker date="1558302308547" expanded="false" signature="1329:1616" ph="PROPERTIES" />
+            <marker date="1558302308547" expanded="true" signature="1620:1765" ph="///     Extract the Sub Sprites of a Sprite Sheet using the Metadata generated by using the Unity Sprite Editor. ... " />
+            <marker date="1558302308547" expanded="true" signature="1796:2448" ph="{...}" />
+            <marker date="1558302308547" expanded="true" signature="1983:2415" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpriteExtractor/Extensions/StringExtension.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1558302233776" expanded="true" signature="0:220" ph="/* Created By: Uee ... */" />
+            <marker date="1558302233776" expanded="false" signature="228:274" ph="..." />
+            <marker date="1558302233776" expanded="true" signature="312:1847" ph="{...}" />
+            <marker date="1558302233776" expanded="true" signature="354:1845" ph="{...}" />
+            <marker date="1558302233776" expanded="true" signature="369:459" ph="///     Cached String Builder of String Data. ... " />
+            <marker date="1558302233776" expanded="true" signature="553:761" ph="///     Concat String Data using String Builder. ... " />
+            <marker date="1558302233776" expanded="true" signature="841:1458" ph="{...}" />
+            <marker date="1558302233776" expanded="true" signature="1469:1627" ph="///     Helper Method to Assist with Combining String Data in an Array. ... " />
+            <marker date="1558302233776" expanded="true" signature="1704:1839" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

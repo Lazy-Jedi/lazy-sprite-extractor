@@ -1,0 +1,22 @@
+/*
+ *
+ * Created By: Uee
+ * Modified By: 
+ *
+ * Last Modified: 19 May 2019
+ *
+ *
+ * This software is released under the terms of the
+ * GNU license. See https://www.gnu.org/licenses/#GPL
+ * for more information.
+ *
+ *
+ * Important
+ * Whatever Artwork is used in conjunction with this tool and is extracted using this tool has no 
+ * affiliation with this tool or its creator.
+ * 
+ * The Artwork(s) belong to their respective creators (the individuals that made them) 
+ * and the user of this tool should adhere to the respective licenses stipulated by the 
+ * owners/creators of the Artwork.
+ *
+ */
