@@ -10,8 +10,6 @@ using System.IO;
 using System.Linq;
 using UnityEngine;
 using UnityEditor;
-using UnityEditor.VersionControl;
-using UnityEngine.Assertions;
 using Debug = UnityEngine.Debug;
 using Object = UnityEngine.Object;
 
@@ -84,8 +82,7 @@ namespace JellyFish.EditorTools.SpriteExtractor
 
             if (textureImporter != null)
             {
-                textureImporter.isReadable = true;
-
+                MakeReadable(textureImporter, path);
                 foreach (SpriteMetaData metaData in textureImporter.spritesheet)
                 {
                     Texture2D extracted =
@@ -117,7 +114,7 @@ namespace JellyFish.EditorTools.SpriteExtractor
             TextureImporter textureImporter = AssetImporter.GetAtPath(path) as TextureImporter;
             if (textureImporter != null)
             {
-                textureImporter.isReadable = true;
+                MakeReadable(textureImporter, path);
 
                 foreach (SpriteMetaData metaData in textureImporter.spritesheet)
                 {
@@ -135,6 +132,25 @@ namespace JellyFish.EditorTools.SpriteExtractor
             AssetDatabase.Refresh();
         }
 
+        /// <summary>
+        /// Make Texture2D Readable
+        /// </summary>
+        /// <param name="textureImporter"></param>
+        /// <param name="path"></param>
+        private static void MakeReadable(TextureImporter textureImporter, string path)
+        {
+            if (textureImporter != null && !textureImporter.isReadable)
+            {
+                textureImporter.isReadable = true;
+                AssetDatabase.ImportAsset(path);
+            }
+        }
+
+        /// <summary>
+        /// Get Source Texture2D From a Path
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns></returns>
         private static Texture2D GetSourceTexture2D(string path)
         {
             if (_previousPath != path)

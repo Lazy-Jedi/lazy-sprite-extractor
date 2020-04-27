@@ -7,7 +7,7 @@ EditorSettings:
   m_ExternalVersionControlSupport: Visible Meta Files
   m_SerializationMode: 2
   m_LineEndingsForNewScripts: 2
-  m_DefaultBehaviorMode: 0
+  m_DefaultBehaviorMode: 1
   m_PrefabRegularEnvironment: {fileID: 0}
   m_PrefabUIEnvironment: {fileID: 0}
   m_SpritePackerMode: 4
@@ -20,7 +20,7 @@ EditorSettings:
   m_ProjectGenerationRootNamespace: 
   m_CollabEditorSettings:
     inProgressEnabled: 1
-  m_EnableTextureStreamingInEditMode: 1
+  m_EnableTextureStreamingInEditMode: 0
   m_EnableTextureStreamingInPlayMode: 1
   m_AsyncShaderCompilation: 1
   m_EnterPlayModeOptionsEnabled: 0
