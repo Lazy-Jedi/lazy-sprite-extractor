@@ -10,24 +10,24 @@ using UnityEditor;
 using UnityEngine;
 
 
-namespace SDK.Extractors.GIFExtractor
+namespace JellyFish.Editor.Tools.Extractors
 {
     public class QuickGIFExtractor
     {
         /// <summary>
         /// Extract the Frames of the GIF at its Current Location.
         /// </summary>
-        [MenuItem("Assets/JellyFish/Extractors/GIF Extractor/Extract Here", priority = 15)]
+        [MenuItem("Assets/JellyFish/GIF Extractor/Extract Here", priority = 15)]
         public static void ExtractFramesHere()
         {
             Object[] _objects = Selection.objects;
 
             foreach (Object asset in _objects)
             {
-                string path = AssetDatabase.GetAssetPath(asset);
+                string path   = AssetDatabase.GetAssetPath(asset);
                 string folder = Path.GetDirectoryName(path);
 
-                Image gif = Image.FromFile(path);
+                Image          gif            = Image.FromFile(path);
                 FrameDimension frameDimension = new FrameDimension(gif.FrameDimensionsList[0]);
 
                 int frameCount = gif.GetFrameCount(frameDimension);
@@ -37,7 +37,7 @@ namespace SDK.Extractors.GIFExtractor
                     gif.SelectActiveFrame(frameDimension, index);
 
                     // Create a new Frame from the Original Source.
-                    Image frame = (Image) gif.Clone();
+                    Image  frame    = (Image) gif.Clone();
                     string filename = $"{Path.GetFileNameWithoutExtension(path)}_{index}.png";
                     frame.Save(Path.Combine(folder, filename), ImageFormat.Png);
                 }
@@ -49,7 +49,7 @@ namespace SDK.Extractors.GIFExtractor
         /// <summary>
         /// Extract GIF Frames to a Folder in/outside of the Current Unity Project.
         /// </summary>
-        [MenuItem("Assets/JellyFish/Extractors/GIF Extractor/Extract Elsewhere", priority = 15)]
+        [MenuItem("Assets/JellyFish/GIF Extractor/Extract Elsewhere", priority = 15)]
         public static void ExtractFramesElseWhere()
         {
             Object _object = Selection.activeObject;
@@ -63,7 +63,7 @@ namespace SDK.Extractors.GIFExtractor
 
                 string folder = Path.GetDirectoryName(extractionPath);
 
-                Image gif = Image.FromFile(assetPath);
+                Image          gif            = Image.FromFile(assetPath);
                 FrameDimension frameDimension = new FrameDimension(gif.FrameDimensionsList[0]);
 
                 int frameCount = gif.GetFrameCount(frameDimension);
@@ -73,7 +73,7 @@ namespace SDK.Extractors.GIFExtractor
                     gif.SelectActiveFrame(frameDimension, index);
 
                     // Create a new Frame from the Original Source.
-                    Image frame = (Image) gif.Clone();
+                    Image  frame    = (Image) gif.Clone();
                     string filename = $"{Path.GetFileNameWithoutExtension(assetPath)}_{index}.png";
                     frame.Save(Path.Combine(folder, filename), ImageFormat.Png);
                 }

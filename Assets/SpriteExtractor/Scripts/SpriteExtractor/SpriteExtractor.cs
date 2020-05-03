@@ -8,13 +8,15 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using UnityEngine;
+using JellyFish.Editor.Extensions;
 using UnityEditor;
+using UnityEngine;
 using Debug = UnityEngine.Debug;
 using Object = UnityEngine.Object;
 
+
 // ReSharper disable once CheckNamespace
-namespace JellyFish.EditorTools.SpriteExtractor
+namespace JellyFish.Editor.Tools.Extractors
 {
     [Serializable]
     public class SpriteExtractor
@@ -162,7 +164,7 @@ namespace JellyFish.EditorTools.SpriteExtractor
             return _source;
         }
 
-        [MenuItem("Assets/JellyFish/Extractors/Sprite Extractor/From Meta/Extract Here", priority = 10)]
+        [MenuItem("Assets/JellyFish/Sprite Extractor/From Meta/Extract Here", priority = 10)]
         public static void ExtractSubSpriteHere()
         {
             Object[] objects = Selection.objects;
@@ -172,7 +174,7 @@ namespace JellyFish.EditorTools.SpriteExtractor
             }
         }
 
-        [MenuItem("Assets/JellyFish/Extractors/Sprite Extractor/From Meta/Extract Elsewhere", priority = 10)]
+        [MenuItem("Assets/JellyFish/Sprite Extractor/From Meta/Extract Elsewhere", priority = 10)]
         public static void ExtractSubSpriteToAnotherLocation()
         {
             Object meta = Selection.activeObject;
@@ -180,7 +182,7 @@ namespace JellyFish.EditorTools.SpriteExtractor
             ExtractSubSprites(meta, path);
         }
 
-        [MenuItem("Assets/JellyFish/Extractors/Sprite Extractor/From Source/Extract Here", priority = 10)]
+        [MenuItem("Assets/JellyFish/Sprite Extractor/From Source/Extract Here", priority = 10)]
         public static void ExtractSpritesHere()
         {
             Object[] objects = Selection.objects;
@@ -191,7 +193,7 @@ namespace JellyFish.EditorTools.SpriteExtractor
             }
         }
 
-        [MenuItem("Assets/JellyFish/Extractors/Sprite Extractor/From Source/Extract Elsewhere", priority = 10)]
+        [MenuItem("Assets/JellyFish/Sprite Extractor/From Source/Extract Elsewhere", priority = 10)]
         public static void ExtractSpritesToAnotherLocation()
         {
             Texture2D texture2D = Selection.activeObject as Texture2D;

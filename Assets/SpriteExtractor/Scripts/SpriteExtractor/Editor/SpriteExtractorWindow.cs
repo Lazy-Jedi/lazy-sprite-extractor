@@ -4,14 +4,13 @@
  */
 
 #if UNITY_EDITOR
-using System.Collections.Generic;
 using System.IO;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Assertions;
 
 // ReSharper disable once CheckNamespace
-namespace JellyFish.EditorTools.SpriteExtractor
+namespace JellyFish.Editor.Tools.Extractors
 {
     public class SpriteExtractorWindow : EditorWindow
     {
@@ -126,12 +125,12 @@ namespace JellyFish.EditorTools.SpriteExtractor
             {
                 if (_spriteSheet)
                 {
-                    _path     = AssetDatabase.GetAssetPath(_spriteSheet);
+                    _path = AssetDatabase.GetAssetPath(_spriteSheet);
                 }
                 else
                 {
-                    _path        = "";
-                    _imageRect   = Rect.zero;
+                    _path      = "";
+                    _imageRect = Rect.zero;
                 }
             }
         }
