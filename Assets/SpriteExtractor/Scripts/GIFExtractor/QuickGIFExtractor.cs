@@ -10,7 +10,7 @@ using UnityEditor;
 using UnityEngine;
 
 
-namespace JellyFish.Editor.Tools.Extractors
+namespace JellyFish.Tools.Extractors
 {
     public class QuickGIFExtractor
     {

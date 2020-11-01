@@ -4,11 +4,8 @@
  */
 
 using UnityEngine;
-#if UNITY_EDITOR
-using UnityEditor;
 
-#endif
-namespace JellyFish.Editor.Extensions
+namespace JellyFish.Extensions
 {
     public static class Texture2DExtension
     {
@@ -19,15 +16,7 @@ namespace JellyFish.Editor.Extensions
         /// </summary>
         private static Color[] _pixelData;
 
-#if UNITY_EDITOR
-        /// <summary>
-        /// Cached Texture Importer used to Modify Texture Import Settings.
-        /// </summary>
-        private static TextureImporter _textureImporter;
-#endif
-
         #endregion
-
 
         #region EXTENSION METHODS
 
@@ -46,13 +35,13 @@ namespace JellyFish.Editor.Extensions
             if (x < 0)
             {
                 width += x;
-                x     =  0;
+                x = 0;
             }
 
             if (y < 0)
             {
                 height += y;
-                y      =  0;
+                y = 0;
             }
 
             if (x + width > texture2D.width) width = texture2D.width - x;
@@ -81,25 +70,6 @@ namespace JellyFish.Editor.Extensions
             /* Return the Cropped out Texture. */
             return texture2D;
         }
-
-#if UNITY_EDITOR
-        /// <summary>
-        ///     Change the Readable Import Property of the Texture.
-        /// </summary>
-        /// <param name="source"></param>
-        /// <param name="readable"></param>
-        public static void MakeReadable(this Texture2D source, bool readable)
-        {
-            string texturePath = AssetDatabase.GetAssetPath(source);
-            _textureImporter = AssetImporter.GetAtPath(texturePath) as TextureImporter;
-
-            if (_textureImporter == null) return;
-
-            _textureImporter.isReadable = readable;
-            AssetDatabase.ImportAsset(texturePath);
-            AssetDatabase.Refresh();
-        }
-#endif
 
         #endregion
     }
