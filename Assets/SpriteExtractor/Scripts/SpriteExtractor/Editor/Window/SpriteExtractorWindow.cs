@@ -1,16 +1,10 @@
-﻿/**
- * Created By: Ubaidullah Effendi-Emjedi
- * LinkedIn : https://www.linkedin.com/in/ubaidullah-effendi-emjedi-202494183/
- */
-
-#if UNITY_EDITOR
+﻿#if UNITY_EDITOR
 using System.IO;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Assertions;
 
-// ReSharper disable once CheckNamespace
-namespace JellyFish.Extractors
+namespace Uee.SpriteExtractor
 {
     public class SpriteExtractorWindow : EditorWindow
     {
@@ -21,12 +15,19 @@ namespace JellyFish.Extractors
         /// </summary>
         public static SpriteExtractorWindow Window;
 
-        [MenuItem("JellyFish/Extractors/Image/Sprite Extractor")]
+        [MenuItem("Lazy-Jedi/2D Tools/Sprite Extractor")]
         public static void CreateWindow()
         {
-            Window = GetWindow<SpriteExtractorWindow>("Sprite Extractor Tool");
+            Window = GetWindow<SpriteExtractorWindow>("Sprite Extractor");
             Window.Show();
         }
+
+        #endregion
+
+        #region EDITOR VARIABLES
+
+        private GUIContent _spriteContent;
+        private GUIStyle _pathStyle;
 
         #endregion
 
@@ -36,11 +37,9 @@ namespace JellyFish.Extractors
         private const float IMAGE_HEIGHT = 128f;
 
         private Texture2D _spritesheet;
-        private TextAsset _xmlAsset;
 
         private string _spritesheetPath = "";
         private string _savePath = "";
-        private string _xmlPath = "";
 
         private bool _autoExtractSelectedSprites;
 
@@ -51,29 +50,18 @@ namespace JellyFish.Extractors
 
         private Rect _imageRect = Rect.zero;
 
-        private GUIContent _spriteContent;
-
-        #endregion
-
-        #region PROPERTIES
-
-        public Texture2D Spritesheet
-        {
-            get => _spritesheet;
-            set => _spritesheet = value;
-        }
-
         #endregion
 
         #region UNITY METHODS
 
         private void OnEnable()
         {
-            _spriteContent = new GUIContent("Sprite Sheet", _spritesheet, "Selected Sprite Sheet");
+            _spriteContent = new GUIContent("Spritesheet: ", _spritesheet, "Selected Sprite Sheet");
         }
 
         public void OnGUI()
         {
+            Initialization();
             SelectedImageField();
             DragAndDropSpriteSheets();
             AutoExtractOnSelectionField();
@@ -94,8 +82,7 @@ namespace JellyFish.Extractors
         {
             EditorGUI.BeginChangeCheck();
 
-            _spritesheet =
-                EditorGUILayout.ObjectField(_spriteContent, _spritesheet, typeof(Texture2D), false) as Texture2D;
+            _spritesheet = EditorGUILayout.ObjectField(_spriteContent, _spritesheet, typeof(Texture2D), false) as Texture2D;
 
             if (EditorGUI.EndChangeCheck())
             {
@@ -129,10 +116,6 @@ namespace JellyFish.Extractors
                 // Unity Assets including folder.
                 if (DragAndDrop.objectReferences.Length > 0)
                 {
-                    Debug.Log("UnityAsset");
-
-                    int length = DragAndDrop.objectReferences.Length;
-
                     foreach (Object objectReference in DragAndDrop.objectReferences)
                     {
                         _spritesheetPath = AssetDatabase.GetAssetPath(objectReference);
@@ -145,27 +128,14 @@ namespace JellyFish.Extractors
                         }
 
                         _spritesheet = objectReference as Texture2D;
-                        _xmlPath = _spritesheetPath.Replace(Path.GetExtension(_spritesheetPath), ".xml");
-                        _xmlAsset = AssetDatabase.LoadAssetAtPath<TextAsset>(_xmlPath);
-
-                        if (!_xmlAsset)
-                        {
-                            _xmlPath = "";
-                        }
+                        Assert.IsNotNull(_spritesheet);
 
                         if (!_autoExtractSelectedSprites)
                         {
                             break;
                         }
 
-                        if (_xmlAsset)
-                        {
-                            SpriteExtractor.ExtractFromXml(_spritesheet, _xmlAsset, _savePath);
-                        }
-                        else
-                        {
-                            SpriteExtractor.ExtractAllSprites(_spritesheet);
-                        }
+                        SpriteExtractor.ExtractAllSprites(_spritesheet);
                     }
                 }
                 // Log to make sure we cover all cases.
@@ -194,10 +164,7 @@ namespace JellyFish.Extractors
         /// </summary>
         private void AutoExtractOnSelectionField()
         {
-            _autoExtractSelectedSprites =
-                EditorGUILayout.ToggleLeft("Auto Extract on Drop", _autoExtractSelectedSprites);
-
-            EditorGUILayout.Space();
+            _autoExtractSelectedSprites = EditorGUILayout.ToggleLeft("Auto Extract on Drop?", _autoExtractSelectedSprites);
         }
 
         /// <summary>
@@ -205,25 +172,11 @@ namespace JellyFish.Extractors
         /// </summary>
         private void SpriteSheetPathFields()
         {
-            EditorGUILayout.BeginVertical(EditorStyles.helpBox);
-
-            EditorGUILayout.TextField("Sprite Sheet Path:", _spritesheetPath, new GUIStyle
+            using (EditorGUILayout.VerticalScope verticalScope = new EditorGUILayout.VerticalScope(EditorStyles.helpBox))
             {
-                alignment = TextAnchor.MiddleLeft,
-            });
-
-            EditorGUILayout.TextField("Extracted Sprites Path:", _savePath, new GUIStyle
-            {
-                alignment = TextAnchor.MiddleLeft
-            });
-
-            EditorGUILayout.TextField("XML Path:", _xmlPath, new GUIStyle
-            {
-                alignment = TextAnchor.MiddleLeft
-            });
-
-            EditorGUILayout.EndVertical();
-            EditorGUILayout.Space();
+                EditorGUILayout.TextField("Sprite Sheet Path:", _spritesheetPath, _pathStyle);
+                EditorGUILayout.TextField("Extracted Sprites Path:", _savePath, _pathStyle);
+            }
         }
 
         /// <summary>
@@ -231,32 +184,23 @@ namespace JellyFish.Extractors
         /// </summary>
         private void FileHandlingButtons()
         {
-            EditorGUILayout.BeginHorizontal();
-
-            if (GUILayout.Button("Select New Extraction Path"))
+            using (EditorGUILayout.HorizontalScope horizontalScope = new EditorGUILayout.HorizontalScope())
             {
-                _savePath = EditorUtility.SaveFolderPanel("Extracted Sprites Path", Application.dataPath, "");
-            }
-
-            if (GUILayout.Button("Reset Save Location"))
-            {
-                if (!string.IsNullOrEmpty(_spritesheetPath))
+                if (GUILayout.Button("Select New Extraction Path", EditorStyles.miniButtonLeft))
                 {
-                    _savePath = _spritesheetPath.Replace(Path.GetFileName(_spritesheetPath), "");
+                    string path = EditorUtility.SaveFolderPanel("Extracted Sprites Path", Application.dataPath, "");
+                    if (string.IsNullOrEmpty(path)) return;
+                    _savePath = path;
                 }
-                else
+
+                if (GUILayout.Button("Reset Extracted Location", EditorStyles.miniButtonRight))
                 {
-                    _savePath = "";
+                    _savePath =
+                        !string.IsNullOrEmpty(_spritesheetPath)
+                            ? _spritesheetPath.Replace(Path.GetFileName(_spritesheetPath), "")
+                            : "";
                 }
             }
-
-            if (GUILayout.Button("Find XML"))
-            {
-                _xmlPath = EditorUtility.OpenFilePanel("Image XML", Application.dataPath, "xml");
-                _xmlAsset = AssetDatabase.LoadAssetAtPath<TextAsset>(_xmlPath);
-            }
-
-            EditorGUILayout.EndHorizontal();
         }
 
         /// <summary>
@@ -264,23 +208,10 @@ namespace JellyFish.Extractors
         /// </summary>
         private void ExtractButtons()
         {
-            if (GUILayout.Button("Extract"))
+            if (GUILayout.Button("Extract", EditorStyles.miniButton))
             {
-                if (_spritesheet)
-                {
-                    SpriteExtractor.ExtractAllSprites(_spritesheet);
-                }
+                if (_spritesheet) SpriteExtractor.ExtractAllSprites(_spritesheet);
             }
-
-            if (GUILayout.Button("Extract From XML"))
-            {
-                if (_spritesheet && !string.IsNullOrEmpty(_xmlPath))
-                {
-                    SpriteExtractor.ExtractFromXml(_spritesheet, File.ReadAllText(_xmlPath), _savePath);
-                }
-            }
-
-            EditorGUILayout.Space();
         }
 
         /// <summary>
@@ -288,21 +219,15 @@ namespace JellyFish.Extractors
         /// </summary>
         private void SpriteSheetDisplayField()
         {
-            if (!_spritesheet)
-            {
-                return;
-            }
+            if (!_spritesheet) return;
 
-            if (_imageRect == Rect.zero)
-            {
-                _imageRect = new Rect(0, 196 + 32, IMAGE_WIDTH, IMAGE_HEIGHT);
-            }
+            if (_imageRect == Rect.zero) _imageRect = new Rect(0, 196, IMAGE_WIDTH, IMAGE_HEIGHT);
 
             _delta = Event.current.delta;
 
             if (_imageRect.Contains(Event.current.mousePosition) && Event.current.type == EventType.ScrollWheel)
             {
-                _width += _delta.y  * -9f;
+                _width += _delta.y * -9f;
                 _height += _delta.y * -9f;
 
                 if (_width < IMAGE_WIDTH)
@@ -333,11 +258,16 @@ namespace JellyFish.Extractors
 
         #region HELPER METHODS
 
-        public void OpenFromExternalSource(Texture2D source)
+        private void Initialization()
         {
-            _spritesheet = source;
-            _spritesheetPath = AssetDatabase.GetAssetPath(source);
-            _savePath = _spritesheetPath.Replace(Path.GetFileName(_spritesheetPath), "");
+            if (_pathStyle == null)
+            {
+                _pathStyle = new GUIStyle
+                {
+                    alignment = TextAnchor.MiddleLeft,
+                };
+                _pathStyle.normal.textColor = EditorGUIUtility.isProSkin ? Color.white : Color.black;
+            }
         }
 
         #endregion
