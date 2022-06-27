@@ -18,7 +18,13 @@ The Sprite Extractor Tools allows you to extract sub sprites from a larger sprit
 ## Spritesheet Setup
 Make sure you have the Unity Sprite Editor package installed that comes with the Unity 2D Packages.
 
-### Sprite Mode
+To setup your spritesheet correctly you need to apply some of the following changes.
+
+Changes that are denoted with an asterisk (*) are required!
+
+![](~Documentation/Images/sprite-sheet-inspector.png)
+
+### * Sprite Mode
 + Multiple
 
 ### White Space Settings
@@ -30,7 +36,19 @@ Make sure you have the Unity Sprite Editor package installed that comes with the
 
 It's ok if you forget to do this step the sprite extractor will automatically apply this setting to your spritesheet if it has not been enabled.
 
-After that you Slice your artwork Manually or Automatically using Unity's Sprite Editor (do not forget to apply your slicing changes).
+### Slicing
+![](~Documentation/Images/unity-sprite-editor.png)
+
++ Click Sprite Editor
++ Slice your Spritesheet Manually by selecting regions you wish to extract
++ Slice your Spritesheet Automatically by either
+  + Using the Automatic option - Unity automatically finds individual sprites in the spritesheet (may not work as desired)
+  + Using the Cell Size of the individual Sprites
+  + Using the Number of Columns and Rows the Spritesheet is made up of
++ Apply any padding and offsets that you may require
++ Click Apply once you are done!
+
+Once this is done, you can use either the Sprite Extractor Tool or Quick Extraction to Extract the Sprites.
 
 ## Extraction (Using the Tool)
 ![](~Documentation/Images/sprite-extractor-menubar.png)
