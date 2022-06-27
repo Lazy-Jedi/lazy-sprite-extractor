@@ -85,7 +85,12 @@ namespace Uee.SpriteExtractor
 
         private static Texture2D GetSourceTexture2D(string path)
         {
-            if (_previousPath == path) return _source;
+            if (_previousPath == path)
+            {
+                if (!_source) _source = AssetDatabase.LoadAssetAtPath<Texture2D>(path);
+                return _source;
+            }
+
             _previousPath = path;
             _source = AssetDatabase.LoadAssetAtPath<Texture2D>(path);
             return _source;
