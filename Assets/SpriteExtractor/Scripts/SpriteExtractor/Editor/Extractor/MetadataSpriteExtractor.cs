@@ -47,7 +47,7 @@ namespace Uee.SpriteExtractor
 
         #region EDITOR EXTRACTOR METHODS
 
-        [MenuItem("Assets/Create/2D/Spritesheet/Extract From Metadata/Extract Here", priority = 20)]
+        [MenuItem("Assets/Create/2D/Extract From Metadata/Extract Here", priority = 10)]
         public static void ExtractSubSpriteHere()
         {
             Object[] objects = Selection.objects;
@@ -57,7 +57,7 @@ namespace Uee.SpriteExtractor
             }
         }
 
-        [MenuItem("Assets/Create/2D/Spritesheet/Extract From Metadata/Extract to Folder", priority = 20)]
+        [MenuItem("Assets/Create/2D/Extract From Metadata/Extract to Folder", priority = 10)]
         public static void ExtractSubSpriteToFolder()
         {
             Object textureMetadata = Selection.activeObject;

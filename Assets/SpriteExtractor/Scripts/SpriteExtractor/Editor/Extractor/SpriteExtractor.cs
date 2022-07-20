@@ -53,7 +53,7 @@ namespace Uee.SpriteExtractor
 
         #region EDITOR EXTRACTOR METHODS
 
-        [MenuItem("Assets/Create/2D/Spritesheet/Extract From Source/Extract Here", priority = 10)]
+        [MenuItem("Assets/Create/2D/Extract From Source/Extract Here", priority = 10)]
         public static void ExtractSpritesHere()
         {
             Object[] objects = Selection.objects;
@@ -64,7 +64,7 @@ namespace Uee.SpriteExtractor
             }
         }
 
-        [MenuItem("Assets/Create/2D/Spritesheet/Extract From Source/Extract to Folder", priority = 10)]
+        [MenuItem("Assets/Create/2D/Extract From Source/Extract to Folder", priority = 10)]
         public static void ExtractSpritesToFolder()
         {
             Texture2D texture2D = Selection.activeObject as Texture2D;

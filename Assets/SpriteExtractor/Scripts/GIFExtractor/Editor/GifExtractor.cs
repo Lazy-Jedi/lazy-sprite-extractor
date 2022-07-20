@@ -12,7 +12,7 @@ namespace Uee.SpriteExtractor
         /// <summary>
         /// Extract the Frames of the GIF at its Current Location.
         /// </summary>
-        [MenuItem("Assets/Create/2D/Spritesheet/Extract GIF Frames/Extract Here", priority = 15)]
+        [MenuItem("Assets/Create/2D/Extract GIF Frames/Extract Here", priority = 10)]
         public static void ExtractFramesHere()
         {
             Object[] _objects = Selection.objects;
@@ -44,7 +44,7 @@ namespace Uee.SpriteExtractor
         /// <summary>
         /// Extract GIF Frames to a Folder in/outside of the Current Unity Project.
         /// </summary>
-        [MenuItem("Assets/Create/2D/Spritesheet/Extract GIF Frames/Extract to Folder", priority = 15)]
+        [MenuItem("Assets/Create/2D/Extract GIF Frames/Extract to Folder", priority = 10)]
         public static void ExtractFramesElseWhere()
         {
             Object selectedGif = Selection.activeObject;
