@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace Uee.SpriteExtractor
 {
-    public static class GifExtractor
+    public static class GIFExtractor
     {
         /// <summary>
         /// Extract the Frames of the GIF at its Current Location.

@@ -15,7 +15,7 @@ namespace Uee.SpriteExtractor
         /// </summary>
         public static SpriteExtractorWindow Window;
 
-        [MenuItem("Lazy-Jedi/2D Tools/Sprite Extractor")]
+        [MenuItem("Lazy-Jedi/Tools/Sprite Extractor", priority = 400)]
         public static void CreateWindow()
         {
             Window = GetWindow<SpriteExtractorWindow>("Sprite Extractor");
