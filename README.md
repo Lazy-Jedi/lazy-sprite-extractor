@@ -1,6 +1,6 @@
-# Sprite Extractor Tool
+# Lazy Sprite Extractor
 
-The Sprite Extractor Tools allows you to extract sub sprites from a larger sprite sheet if you wish to do so. Save yourself painful manual labor by automatically cutting sprites using this tool.
+The Sprite Extractor Tool allows you to extract sub sprites from a larger sprite sheet if you wish to do so. Save yourself painful manual labor by automatically cutting sprites using this tool.
 
 ## Tool Features
 
