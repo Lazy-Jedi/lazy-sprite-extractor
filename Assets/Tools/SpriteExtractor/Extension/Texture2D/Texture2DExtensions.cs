@@ -1,7 +1,16 @@
 ﻿using UnityEngine;
 
-public static class Texture2DExtension
+public static class Texture2DExtensions
 {
+    #region FIELDS
+
+    private const string PNG = ".png";
+    private const string JPG = ".jpg";
+    private const string TGA = ".tga";
+    private const string EXR = ".exr";
+
+    #endregion
+
     #region EXTENSION METHODS
 
     /// <summary>
@@ -28,11 +37,20 @@ public static class Texture2DExtension
             y = 0;
         }
 
-        if (x + width > texture2D.width) width = texture2D.width - x;
+        if (x + width > texture2D.width)
+        {
+            width = texture2D.width - x;
+        }
 
-        if (y + height > texture2D.height) height = texture2D.height - y;
+        if (y + height > texture2D.height)
+        {
+            height = texture2D.height - y;
+        }
 
-        if (width <= 0 || height <= 0) return null;
+        if (width <= 0 || height <= 0)
+        {
+            return null;
+        }
 
         // Get the Pixel Data of the Specified Region within the Texture.
         return CreateTexture2DFromPixels(width, height, texture2D.GetPixels(x, y, width, height));
@@ -58,6 +76,24 @@ public static class Texture2DExtension
 
         // Return the Cropped out Texture.
         return newTexture2D;
+    }
+
+    /// <summary>
+    /// Encode Texture2D to Specified Format.
+    /// </summary>
+    /// <param name="texture2D">Source Texture2D</param>
+    /// <param name="format">Format of the Source Texture</param>
+    public static byte[] EncodeTexture2D(this Texture2D texture2D, string format)
+    {
+        format = format.ToLower();
+        return format switch
+        {
+            PNG => texture2D.EncodeToPNG(),
+            JPG => texture2D.EncodeToJPG(),
+            TGA => texture2D.EncodeToTGA(),
+            EXR => texture2D.EncodeToEXR(),
+            _   => texture2D.EncodeToPNG()
+        };
     }
 
     #endregion

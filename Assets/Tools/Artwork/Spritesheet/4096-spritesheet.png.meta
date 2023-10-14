@@ -120,7 +120,7 @@ TextureImporter:
       213: -3230465409399456308
     second: white
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -137,10 +137,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -179,6 +181,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -259,7 +263,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: df8e03b54b871d6d0800000000000000
-      internalID: -2967457963441067779
+      internalID: 21300022
       vertices: []
       indices: 
       edges: []
@@ -301,7 +305,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 41e2f49ca790eba30800000000000000
-      internalID: 4232831122742914580
+      internalID: 21300024
       vertices: []
       indices: 
       edges: []
@@ -322,7 +326,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 23238d2020989ef50800000000000000
-      internalID: 6911205744907399730
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -343,7 +347,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 4f53d165bfe5f3c20800000000000000
-      internalID: 3188371494776157684
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
@@ -364,7 +368,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7e33dc713ff422d90800000000000000
-      internalID: -7124043755051731993
+      internalID: 21300020
       vertices: []
       indices: 
       edges: []
@@ -385,7 +389,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1d83fa53b94248140800000000000000
-      internalID: 4720938558430329041
+      internalID: 21300026
       vertices: []
       indices: 
       edges: []
@@ -406,7 +410,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 083084ce0988c6690800000000000000
-      internalID: -7607555514514799744
+      internalID: 21300028
       vertices: []
       indices: 
       edges: []
@@ -448,7 +452,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 84b1cb01fb2cd60a0800000000000000
-      internalID: -6886634129304315064
+      internalID: 21300032
       vertices: []
       indices: 
       edges: []
@@ -469,7 +473,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 904e0ca35f0120c70800000000000000
-      internalID: 8935723256095237129
+      internalID: 21300034
       vertices: []
       indices: 
       edges: []
@@ -511,7 +515,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 21c69a29eb55f50c0800000000000000
-      internalID: -4584851618647151598
+      internalID: 21300038
       vertices: []
       indices: 
       edges: []
@@ -532,7 +536,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 6cb52f66abb860800800000000000000
-      internalID: 578303234871024582
+      internalID: 21300040
       vertices: []
       indices: 
       edges: []
@@ -574,7 +578,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ccdfe8d63d41b23d0800000000000000
-      internalID: -3230465409399456308
+      internalID: 21300044
       vertices: []
       indices: 
       edges: []
@@ -589,9 +593,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      black: 21300022
+      blue: 21300032
+      gray: 6719970669409023209
+      green: 21300026
+      lavendar: 1141125105600914542
+      lime: 21300020
+      magenta: -7142126588459802131
+      navy: 21300034
+      orange: 21300016
+      pink: 21300040
+      purple: 21300038
+      red: 21300024
+      teal: 21300028
+      terqouise: 109661225385246331
+      white: 21300044
+      yellow: 21300018
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
