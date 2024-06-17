@@ -1,6 +1,6 @@
 # Lazy Sprite Extractor
 
-The Sprite Extractor Tool allows you to extract individual sprites from a larger sprite sheet. 
+The Sprite Extractor Tool allows you to extract individual or all the sprites from one or more larger spritesheets. 
 
 This version of the tool has been updated to use ISpriteEditorDataProvider to extract sprites from a spritesheet. 
 I have included the old version of the tool in the repository, but it is no longer supported in newer versions of Unity. <br>
