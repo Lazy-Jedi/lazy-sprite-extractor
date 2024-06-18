@@ -24,7 +24,7 @@ namespace Uee.SpriteExtractor
 
             foreach (Object selectedObject in selectedObjects)
             {
-                string assetPath = AssetDatabase.GetAssetPath(selectedObjects[0]);
+                string assetPath = AssetDatabase.GetAssetPath(selectedObject);
                 string path = Path.GetDirectoryName(assetPath);
                 string format = Path.GetExtension(assetPath);
                 textureImporter = AssetImporter.GetAtPath(assetPath) as TextureImporter;
